@@ -31,7 +31,7 @@ import itertools
 import random
 
 from flask import Flask, request, jsonify
-from fraud_detector import Transaction, FraudDetectionEngine
+from api.fraud_detector import Transaction, FraudDetectionEngine
 
 app = Flask(__name__)
 
